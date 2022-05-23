@@ -2,7 +2,7 @@
 
 Gallery website to display previous works of Mauritian freelance artist Shifa.
 
-> Link to website: <https://screativeheart.web.app/>
+> Link to official website: <https://screativeheart.web.app/>
 
 ## What I did
 
