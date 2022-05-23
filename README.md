@@ -1,4 +1,4 @@
-# S.Creative Heart Gallery Website
+# S.Creative Heart Gallery Website (development code)
 
 Gallery website to display previous works of Mauritian freelance artist Shifa.
 
