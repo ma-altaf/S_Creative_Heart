@@ -6,7 +6,7 @@ Gallery website to display previous works of Mauritian freelance artist Shifa.
 
 ## What I did
 
--   Created a responsive website using **HTML**, **CSS(SASS)** and **JavaScript**.
+-   Created a responsive website using **HTML**, **CSS(SCSS)** and **JavaScript**.
 -   Used animation library **GSAP** (core, ScrollTrigger) for the front-end.
 -   Implemented **Firebase Firestore** as the database to store the links to the images.
 -   Used **ImageKit.io** to store and deliver the image as webp and dynamically reduced to the appropriate size for the user screen to reduce data consumption and improve speed of loading the content.
