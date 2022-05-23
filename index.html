@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Custom oil paintings with optional Arabic/Western caligraphy from mauritian artist, Shifa Hoobaykhan"
+        />
+        <!-- TODO: change to the link of the webpage (help aggregate info such as likes) -->
+        <meta property="og:url" content="" />
+        <meta
+            property="og:title"
+            content="✨ Get The Art That You Have Dreamed ✨"
+        />
+        <meta
+            property="og:description"
+            content="commission your custom oil painting with optional Arabic/Western caligraphy."
+        />
+        <!-- TODO: change the image below-->
+        <meta property="og:image" content="" />
+        <meta
+            name="google-site-verification"
+            content="Y9iPR1tNe4WoTz0Mqsc9EJIiXbSYrLofzrbLysXKaKc"
+        />
+        <title>S.Creative heArt</title>
+        <link rel="preload" href="styles/style.css" as="style" />
+        <link rel="preload" href="scripts/script.js" as="script" />
+        <link
+            rel="prefetch"
+            as="style"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <div id="cover">
+            <span>
+                <img
+                    id="logo"
+                    src="https://ik.imagekit.io/Aaltaf/S_Creative_heart/logo.svg"
+                    alt="S.Creative Heart logo"
+                />
+                <div id="progressBar"></div>
+            </span>
+        </div>
+        <nav id="navbar">
+            <div id="navLogo">S.Creative HeArt</div>
+            <button id="enquire" onclick="enquireView()">enquire</button>
+        </nav>
+        <div id="enquirePage">
+            <!-- TODO -->
+            <button id="enquireCloseBtn" onclick="enquireClose()">close</button>
+            <section id="socialLinksSect">
+                <a
+                    rel="noopener"
+                    href="https://www.instagram.com/s.creative_heart/"
+                    target="_blank"
+                    >instagram</a
+                >
+                <a
+                    rel="noopener"
+                    href="https://www.facebook.com/S.CreativeheArt"
+                    target="_blank"
+                    >facebook</a
+                >
+
+                <a
+                    rel="noopener"
+                    href="mailto:s.creativeheart@gmail.com"
+                    target="_blank"
+                    >gmail</a
+                >
+                <h5>s.creativeheart@gmail.com</h5>
+            </section>
+        </div>
+
+        <!-- TODO -->
+        <div id="imageViewPage" onclick="imgClose()">
+            <button id="imgViewCloseBtn">
+                <span class="material-icons">close</span>
+            </button>
+            <span id="loadingText"
+                >loading<br />
+                image</span
+            >
+            <div id="imgViewContainer">
+                <img src="" />
+            </div>
+        </div>
+        <main>
+            <section id="landing">
+                <h1 id="Slogo">S</h1>
+
+                <div id="CHBlock">
+                    <h1 id="creativeText">Creative</h1>
+                    <h1 id="heartText">heart</h1>
+                </div>
+
+                <div id="scrollIndicator"></div>
+            </section>
+            <section id="about">
+                <div id="paragraph">
+                    Welcome, creative friend. Thank you so much for visiting my
+                    online abode! Please feel free to pull up a chair,get comfy
+                    and have a look around. Just in case we have not met… I am
+                    shifa a freelance artist and curious creative soul who is
+                    passionate about all things artsy! Ready to get you the art
+                    that you dreamed…☺️
+                </div>
+            </section>
+            <section id="prevWorkText">
+                <div id="previous">previous</div>
+                <div id="work"><p>works</p></div>
+            </section>
+            <section id="prevWorks"></section>
+            <footer>
+                <section id="conclusionSect">
+                    <div id="conclusion">
+                        If you are ready to personalize your canvas here are a
+                        few things you might want to think of, but feel free to
+                        ask me for advice! 💖
+
+                        <br />
+                        <br />
+                        > Size of your canvas <br />
+                        > Designs and colours of your choice <br />
+                        > Arabic/Western Calligraphy (Optional)<br />
+                        > Quotes (Optional)<br />
+                        > Order should be placed at least 2 weeks before
+                    </div>
+                    <button id="enquireBtn" onclick="enquireView()">
+                        <span id="NE_arrow" class="material-icons"
+                            >north_east</span
+                        >
+                    </button>
+                </section>
+                <p id="author">
+                    Developed by
+                    <a
+                        rel="noopener"
+                        target="_blank"
+                        href="https://altafagowun.web.app/"
+                        id="altaf"
+                        >A.Altaf</a
+                    >
+                </p>
+            </footer>
+        </main>
+        <div id="notice">
+            <p>
+                By using this website you agree to store the required
+                information for reCAPTCHA v3 to secure the website.
+            </p>
+            <button id="consentBtn" onclick="agreeNotice()">Agree</button>
+        </div>
+    </body>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.6.3/smooth-scrollbar.min.js"
+        integrity="sha512-SeDDKCN2Ah/xzvwXOVCJtjjxigg/EOfcqGfmmnF5k0BBxMnFjDZciodIspnFbvQuMuL45nmhLmYEcZV4CpOw1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+
+    <script type="module" src="scripts/firebase.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/enquirePage.js"></script>
+    <script src="scripts/imagePage.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/footer.js"></script>
+</html>

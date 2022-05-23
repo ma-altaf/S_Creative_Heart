@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@400;500;800&display=swap");
+
+$base-color: #fff5f3;
+$lText-color: #68a396;
+$second-color: #1a1a1a;
+
+* {
+    font-family: "Italiana", serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.05em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: $base-color;
+    background: $second-color;
+}
+
+html,
+body {
+    color: $second-color;
+    background-color: $base-color;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #title {
+        position: relative;
+        h1 {
+            font-size: 20vw;
+            font-family: "Montserrat", monospace;
+            color: $second-color;
+            opacity: 0.1;
+            top: 0;
+            left: 0;
+        }
+        p {
+            margin: 0 !important;
+            padding: 0 !important;
+            font-size: 8vw;
+            font-weight: 100;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    p {
+        margin: 1em;
+    }
+    a {
+        text-transform: uppercase;
+        color: $second-color;
+        text-decoration: none;
+        width: fit-content;
+        margin: 1em;
+        padding: 1em 1.5em;
+        background-color: $lText-color;
+        transition: all 0.5s;
+        &:hover {
+            letter-spacing: 2px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #title {
+            position: relative;
+            margin: 5em;
+            h1 {
+                font-size: 35vw;
+                font-family: "Montserrat", monospace;
+                color: $second-color;
+                opacity: 0.1;
+                top: 0;
+                left: 0;
+            }
+            p {
+                margin: 0 !important;
+                padding: 0 !important;
+                font-size: 15vw;
+                font-weight: 100;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        p {
+            margin: 1em;
+        }
+    }
+}
