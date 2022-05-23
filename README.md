@@ -14,7 +14,8 @@ Gallery website to display previous works of Mauritian freelance artist Shifa.
 -   Used **Preload JS** library to monitor the loading of the initial images during the loading screen.
 
 ```
-NOTE: I did not know how to use git and GitHub at that time, so there is only one large commit with the whole website 😅.
+NOTE: I did not know how to use git and GitHub at that time,
+so there is only one large commit with the whole website 😅.
 ```
 
 ##### Approximate development time frame: November – December 2021
